@@ -34,7 +34,7 @@ h1 {
 	line-height: 110%;
 	margin: 0;
 	color: #fff;
-	text-shadow: 0 0 1px;
+	text-shadow: 0 1px #000;
 }
 
 .container {
@@ -76,9 +76,9 @@ header {
 }
 
 .hero {
-	background: linear-gradient(rgba(0,0,0, 0.35), rgba(0,0,0, 0.35)), url('../images/4.jpg');
+	background: linear-gradient(rgba(20,20,20, 0.3), rgba(20,20,20, 0.3)), url('../images/12.jpg');
 	background-size: cover;
-	background-position: top center;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	padding-top: 220px;
