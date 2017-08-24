@@ -43,8 +43,14 @@ h1 {
 }
 
 header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 	height: 75px;
 	padding-top: 10px;
+	background: #ffffff;
+	z-index: 9999;
 }
 
 .header-wrapper {
@@ -59,21 +65,23 @@ header {
 }
 
 .navbar li a{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 80%;
+	font-family: 'Alegreya', serif;
+	font-size: 90%;
 }
 
 .navbar li img {
-	width: 60%;
+	width: 55%;
 	height: auto;
 }
 
 .hero {
 	background: url('../images/hero-bg.jpg');
 	background-size: cover;
+	background-position: center;
 	background-repeat: no-repeat;
-	padding-top: 200px;
-	padding-bottom: 170px;
+	background-attachment: fixed;
+	padding-top: 220px;
+	padding-bottom: 150px;
 }
 
 .hero p {
@@ -84,5 +92,19 @@ header {
 	font-weight: 400;
 	line-height: 160%;
 	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.hero a {
+	padding: 10px 40px;
+	color: #ffffff;
+	background: #026742;
+	font-family: 'Alegreya', serif;
+	font-size: 120%;
+	border-radius: 5px;
+}
+
+.hero a:hover {
+	margin-top: 2px;
 }
 
