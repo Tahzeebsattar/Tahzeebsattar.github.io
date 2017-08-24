@@ -59,11 +59,12 @@ header {
 }
 
 .navbar li a{
-	font-family: 'Alegreya', serif;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 80%;
 }
 
 .navbar li img {
-	width: 80%;
+	width: 60%;
 	height: auto;
 }
 
@@ -81,6 +82,7 @@ header {
 	color: #fff;
 	font-size: 80%;
 	font-weight: 400;
-	line-height: 150%;
+	line-height: 160%;
+	margin-top: 20px;
 }
 
