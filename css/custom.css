@@ -34,6 +34,7 @@ h1 {
 	line-height: 110%;
 	margin: 0;
 	color: #fff;
+	text-shadow: 0 0 1px;
 }
 
 .container {
@@ -47,7 +48,7 @@ header {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 75px;
+	height: 72px;
 	padding-top: 10px;
 	background: #ffffff;
 	z-index: 9999;
@@ -75,9 +76,9 @@ header {
 }
 
 .hero {
-	background: url('../images/hero-bg.jpg');
+	background: linear-gradient(rgba(0,0,0, 0.35), rgba(0,0,0, 0.35)), url('../images/4.jpg');
 	background-size: cover;
-	background-position: center;
+	background-position: top center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	padding-top: 220px;
@@ -93,6 +94,7 @@ header {
 	line-height: 160%;
 	margin-top: 20px;
 	margin-bottom: 30px;
+	text-shadow: 0 1px #000;
 }
 
 .hero a {
